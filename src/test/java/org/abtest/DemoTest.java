@@ -47,7 +47,7 @@ public class DemoTest extends BaseTest{
         travelHomepage.setBookingStrategy("Multitrip");
 
         travelHomepage.checkAvail(reservationDetails);
-
+        System.out.println("Jenkins auto trigger test");
     }
 
     @AfterTest
