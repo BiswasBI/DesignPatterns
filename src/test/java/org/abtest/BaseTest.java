@@ -42,7 +42,7 @@ public class BaseTest {
 
         //GRID RUN (WITH DOCKER) - single browser
         FirefoxOptions opt = new FirefoxOptions();
-        WebDriver driver = new RemoteWebDriver(new URL("http://65.2.31.132:4444/"), opt);
+        WebDriver driver = new RemoteWebDriver(new URL("http://13.127.176.29:4444/"), opt);
         return driver;
 
 
